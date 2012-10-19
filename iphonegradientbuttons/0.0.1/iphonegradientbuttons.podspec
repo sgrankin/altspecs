@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.requires_arc = false
 
   s.platform = :ios
-  s.ios.frameworks = %w{UIKit Quartz CoreGraphics}
+  s.ios.frameworks = %w{UIKit QuartzCore CoreGraphics}
   s.ios.deployment_target = "5.0"
 end
