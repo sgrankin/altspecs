@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  s.platform = :ios
   s.ios.frameworks = %w{QuartzCore CoreImage CoreGraphics}
   s.ios.deployment_target = "5.0"
 end

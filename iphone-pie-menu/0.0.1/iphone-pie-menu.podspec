@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = "Classes/Pie*"
   s.requires_arc = false
 
+  s.platform = :ios
   s.ios.frameworks = %w{UIKit}
   s.ios.deployment_target = "5.0"
 end
